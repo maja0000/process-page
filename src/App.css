@@ -1,38 +1,108 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  font-family: Helvetica;
+  font-style: normal;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  background-color: #474747;
+  width: 5%;
+  position: absolute;
+  font-size: 1.5em;
+  color: white;
+  writing-mode: vertical-rl;
+  padding: 10px;
+  font-weight: 300;
+  line-height: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.all-boxes div:nth-child(even) {
+  /* background-color: azure; */
+  margin-left: 20%;
+}
+.all-boxes div:nth-child(odd) {
+  /* background-color: yellow; */
+  margin-right: 20%;
+}
+
+.content {
+  background-color: #2e2e2e;
+  color: #e5e5e5;
+  /* height: 100vh; */
+  width: 100%;
+}
+.content-box {
+  /* background-color: aquamarine; */
+  /* width: 50%; */
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.number {
+  font-size: 8em;
+  margin-right: 20px;
+}
+@media (max-width: 850px) {
+  .content-box {
+    width: 70%;
+  }
+  .number {
+    font-size: 5.5em;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media (max-width: 500px) {
+  .content-box {
+    width: 80%;
+  }
+  .number {
+    font-size: 4em;
+  }
+  .all-boxes div:nth-child(odd) {
+    margin: 0;
+  }
+  .all-boxes div:nth-child(even) {
+    margin: 0;
+  }
+}
+.all-boxes {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.bounce {
+  -moz-animation: floating-text 1s ease alternate infinite;
+  -ms-animation: floating-text 1s ease alternate infinite;
+  -o-animation: floating-text 1s ease alternate infinite;
+  animation: floating-text 1s ease alternate infinite;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@-webkit-keyframes floating-text {
+  0% {
+    -webkit-transform: translateY(0.1em);
   }
-  to {
-    transform: rotate(360deg);
+}
+@-moz-keyframes floating-text {
+  0% {
+    -moz-transform: translateY(0.1em);
+  }
+}
+@-ms-keyframes floating-text {
+  0% {
+    -ms-transform: translateY(0.1em);
+  }
+}
+@-o-keyframes floating-text {
+  0% {
+    -o-transform: translateY(0.1em);
+  }
+}
+@keyframes floating-text {
+  0% {
+    transform: translateY(0.1em);
   }
 }

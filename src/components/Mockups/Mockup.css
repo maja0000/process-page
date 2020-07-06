@@ -1,0 +1,33 @@
+.mockup-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.mockup1 {
+  background-image: url('../../pics/wypoczynek.png');
+  height: 600px;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mockup3 {
+  background-image: url('../../pics/meteo.png');
+  height: 600px;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  .mockup-wrapper {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
