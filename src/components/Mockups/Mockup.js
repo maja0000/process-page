@@ -38,19 +38,22 @@ export default function Mockup() {
           what I’m about to build. I try to collect everything what I need.
           Colour pallets, icons, font styles, pictures etc. I also think about
           movement I wanna add, what animations would make UX more smooth and
-          more enjoyable. At the end I'll ask a friend for their first
-          impressions or/and feedback.
+          more enjoyable. If I feel extra fancy I'll make my own icons and
+          pictures. At the end I'll ask a friend for their first impressions
+          or/and feedback.
         </p>
         <p className="paragraph-mockup">
           {' '}
-          This is what rough wireframes turned into. Starting to look pretty
-          good!
+          This is what rough wireframes turned into. <br /> <br />
+          <span style={{ color: '#828181' }}>
+            Things are starting to look pretty good!
+          </span>
         </p>
         <div data-aos="fade-up-left" className="mockup1"></div>
         <p className="paragraph-mockup">
           {' '}
-          And here’s another example I created for my weather app. To make my
-          own life extra easy I like to add short descriptions.
+          And here’s another example, this one I made for my weather app. To
+          make my own life extra easy I like to add short descriptions.
         </p>
         <div data-aos="fade-up-right" className="mockup3"></div>
       </div>

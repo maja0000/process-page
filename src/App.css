@@ -18,6 +18,27 @@
   font-weight: 300;
   line-height: 30px;
 }
+.logo {
+  /* position: absolute; */
+  background-color: #2e2e2e;
+  background-image: url('./pics/mg.svg');
+  left: 90%;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.content {
+  background-color: #2e2e2e;
+  color: #e5e5e5;
+  /* height: 100vh; */
+  /* width: 90%; */
+}
 
 .all-boxes div:nth-child(even) {
   /* background-color: azure; */
@@ -28,12 +49,6 @@
   margin-right: 20%;
 }
 
-.content {
-  background-color: #2e2e2e;
-  color: #e5e5e5;
-  /* height: 100vh; */
-  width: 100%;
-}
 .content-box {
   /* background-color: aquamarine; */
   /* width: 50%; */

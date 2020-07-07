@@ -9,11 +9,19 @@ function App() {
   return (
     <div className="App">
       <div className="header">this is how i work</div>
+
       <div className="content">
+        <a
+          href="https://maja-gach-portfolio.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="logo"></div>
+        </a>
         <div className="all-boxes bounce">
           <div className="content-box">
             <span className="number">1</span>
-            <p>
+            <p style={{ fontWeight: '100' }}>
               <span style={{ color: '#ED8383', fontSize: '4vw' }}>
                 User stories.
               </span>{' '}
@@ -25,7 +33,8 @@ function App() {
           </div>
           <div className="content-box">
             <span className="number">2</span>
-            <p>
+            <p style={{ fontWeight: '100' }}>
+              {' '}
               <span style={{ color: '#ED8383', fontSize: '4vw' }}>
                 Wireframe and mockup.
               </span>{' '}
@@ -38,7 +47,7 @@ function App() {
           </div>
           <div className="content-box">
             <span className="number">3</span>
-            <p>
+            <p style={{ fontWeight: '100' }}>
               <span style={{ color: '#ED8383', fontSize: '4vw' }}>
                 App architecture and tech stack.{' '}
               </span>
@@ -52,7 +61,7 @@ function App() {
           </div>
           <div className="content-box">
             <span className="number">4</span>
-            <p>
+            <p style={{ fontWeight: '100' }}>
               <span style={{ color: '#ED8383', fontSize: '4vw' }}>
                 Sprint planning.{' '}
               </span>{' '}

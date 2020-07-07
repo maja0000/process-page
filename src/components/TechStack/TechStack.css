@@ -7,5 +7,24 @@
 .paragraph-stack {
   margin: 0 0 8% 10%;
   width: 60%;
-  font-size: 4vw;
+  font-size: 3vw;
+  font-weight: 100;
+}
+.folders {
+  background-image: url('../../pics/folders.svg');
+  height: 40%;
+  width: 20%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
+  position: absolute;
+  right: 30px;
+  bottom: 30%;
+}
+@media (max-width: 400px) {
+  .folders {
+    right: 20px;
+  }
 }
