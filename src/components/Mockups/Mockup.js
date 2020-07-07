@@ -6,6 +6,7 @@ export default function Mockup() {
   return (
     <>
       <div
+        data-aos="fade-up-left"
         style={{
           display: 'flex',
           flexDirection: 'column',
@@ -17,18 +18,41 @@ export default function Mockup() {
         >
           mockups
         </p>
-        <p style={{ width: '80%', marginLeft: '60px' }}>
-          Plain text, Plain-text, or Plaintext is any text, text file, or
-          docucumcument that contains only text. Unlike a rich-text document, a
-          plain text file cannot have bold text, fonts, larger font sizes, or
-          any other special text fhat contains only text. Unlike a rich-text
-          document, a plain text file cannot have bold text, fonts, larger font
-          sizes, or any other special er special text file cannot have bold
-          text, fonts, larger font sizes, or any other special text formatting.
-          In the picture is a visual example of plain text vs.Oct 17, 2017
+        <p className="paragraph-mockup">
+          if I don’t have luxury of working with a designer I have to plan out
+          how user interface will look like. Starting with a rough sketch
+          usually on a piece of paper, first the most important elements on the
+          page - main components like menu, headers, buttons, text blocks etc .
+          It looks something like that :
         </p>
-        <div className="mockup3"></div>
-        <div className="mockup1"></div>
+        <div className="wireframes" data-aos="fade-up-right">
+          <div className="wireframe"></div>
+          <div className="wireframe2"></div>
+        </div>
+        <p className="paragraph-mockup right">
+          {' '}
+          Now onto one of my favourite steps! Making things pretty! At this
+          point I usually get extra kick of motivation, when UI starts to look
+          as I imagined and idea becomes reality :P For my mockups I use Figma
+          or Illustrator, before staring to code I need to have clear picture of
+          what I’m about to build. I try to collect everything what I need.
+          Colour pallets, icons, font styles, pictures etc. I also think about
+          movement I wanna add, what animations would make UX more smooth and
+          more enjoyable. At the end I'll ask a friend for their first
+          impressions or/and feedback.
+        </p>
+        <p className="paragraph-mockup">
+          {' '}
+          This is what rough wireframes turned into. Starting to look pretty
+          good!
+        </p>
+        <div data-aos="fade-up-left" className="mockup1"></div>
+        <p className="paragraph-mockup">
+          {' '}
+          And here’s another example I created for my weather app. To make my
+          own life extra easy I like to add short descriptions.
+        </p>
+        <div data-aos="fade-up-right" className="mockup3"></div>
       </div>
     </>
   );

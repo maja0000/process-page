@@ -1,10 +1,10 @@
 import React from 'react';
 import Mockup from './components/Mockups/Mockup';
 import TechStack from './components/TechStack/TechStack';
-
+import AOS from 'aos';
 import UserStories from './components/UserStories/UserStories';
 import './App.css';
-
+AOS.init();
 function App() {
   return (
     <div className="App">
