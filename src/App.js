@@ -5,7 +5,6 @@ import AOS from 'aos';
 import UserStories from './components/UserStories/UserStories';
 import Coding from './components/Coding/Coding';
 import Refacturing from './components/Refacturing/Refacturing';
-import twitter from './pics/twitter.svg';
 
 import './App.css';
 AOS.init();
