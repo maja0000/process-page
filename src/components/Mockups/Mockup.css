@@ -21,8 +21,8 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
 }
 .wireframe {
   background-image: url('../../pics/wireframe.svg');

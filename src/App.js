@@ -3,6 +3,10 @@ import Mockup from './components/Mockups/Mockup';
 import TechStack from './components/TechStack/TechStack';
 import AOS from 'aos';
 import UserStories from './components/UserStories/UserStories';
+import Coding from './components/Coding/Coding';
+import Refacturing from './components/Refacturing/Refacturing';
+import twitter from './pics/twitter.svg';
+
 import './App.css';
 AOS.init();
 function App() {
@@ -17,13 +21,14 @@ function App() {
           rel="noopener noreferrer"
         >
           <div className="logo"></div>
+          <div className="twitter-logo"></div>{' '}
         </a>
         <div className="all-boxes bounce">
           <div className="content-box">
             <span className="number">1</span>
-            <p style={{ fontWeight: '100' }}>
-              <span style={{ color: '#ED8383', fontSize: '4vw' }}>
-                User stories.
+            <p style={{ fontWeight: '100', fontSize: '1.5em' }}>
+              <span style={{ color: '#ED8383', fontSize: '2em' }}>
+                Write user stories.
               </span>{' '}
               To make sure that I know exactly what is my applications purpose
               and what features I want users to be able to access. I write down
@@ -33,22 +38,22 @@ function App() {
           </div>
           <div className="content-box">
             <span className="number">2</span>
-            <p style={{ fontWeight: '100' }}>
+            <p style={{ fontWeight: '100', fontSize: '1.5em' }}>
               {' '}
-              <span style={{ color: '#ED8383', fontSize: '4vw' }}>
+              <span style={{ color: '#ED8383', fontSize: '2em' }}>
                 Wireframe and mockup.
               </span>{' '}
               Before starting to code I prepare rough sketch of the user
               interface on a piece of paper. Afterwards using Figma I add
               details, collect icons, pictures, fonts and color palettes I’ll be
               using in the project. <br />
-              <span style={{ color: '#ED8383', fontSize: '4vw' }}></span>{' '}
             </p>
           </div>
           <div className="content-box">
             <span className="number">3</span>
-            <p style={{ fontWeight: '100' }}>
-              <span style={{ color: '#ED8383', fontSize: '4vw' }}>
+            <p style={{ fontWeight: '100', fontSize: '1.5em' }}>
+              {' '}
+              <span style={{ color: '#ED8383', fontSize: '2em' }}>
                 App architecture and tech stack.{' '}
               </span>
               Finally I have to think about the structure of the aplication and
@@ -61,8 +66,9 @@ function App() {
           </div>
           <div className="content-box">
             <span className="number">4</span>
-            <p style={{ fontWeight: '100' }}>
-              <span style={{ color: '#ED8383', fontSize: '4vw' }}>
+            <p style={{ fontWeight: '100', fontSize: '1.5em' }}>
+              {' '}
+              <span style={{ color: '#ED8383', fontSize: '2em' }}>
                 Sprint planning.{' '}
               </span>{' '}
               If I’m working on my own I won’t be following the SCRUM
@@ -73,10 +79,39 @@ function App() {
               efficiently as possible. <br />
             </p>
           </div>
+          <div className="content-box">
+            <span className="number">5</span>
+            <p style={{ fontWeight: '100', fontSize: '1.5em' }}>
+              {' '}
+              <span style={{ color: '#ED8383', fontSize: '2em' }}>
+                Code, code, code!{' '}
+              </span>{' '}
+              This one is self-explanatory.
+              <br />
+            </p>
+          </div>
+          <div className="content-box">
+            <span className="number">6</span>
+            <p style={{ fontWeight: '100', fontSize: '1.5em' }}>
+              {' '}
+              <span style={{ color: '#ED8383', fontSize: '2em' }}>
+                All done? Now make it better!
+              </span>{' '}
+              Everything is working ? Cool! Now it's time to refacture. I try to
+              make everything shorter and more <em>elegant</em> . If components
+              ended up being too long, I'll break them down. Maybe some
+              functions deserve a seperate file? Maybe it would be better to
+              make a hook out of them and import in different places in my app?
+              Final touches!
+              <br />
+            </p>
+          </div>
         </div>
         <UserStories />
         <Mockup />
         <TechStack />
+        <Coding />
+        <Refacturing />
       </div>
     </div>
   );

@@ -1,17 +1,15 @@
 import React from 'react';
 import './UserStories.css';
+import '../../App.css';
 
 export default function UserStories() {
   return (
     <div>
-      <div data-aos="fade-up-right" className="user-stories">
-        <p
-          className="userstories-header"
-          style={{ color: '#ED8383', fontSize: '5vw' }}
-        >
+      <div data-aos="fade-up-right" className="user-stories ">
+        <p className="bounce" style={{ color: '#ED8383' }}>
           user stories
         </p>
-        <p style={{ fontSize: '4vw' }}>
+        <p style={{ fontSize: '4vw', fontWeight: '100' }}>
           This is a short example set of stories that I prepared for my on-going
           project “Wypoczynek”. It’s a Airbnb younger sibling. Main goal of the
           app is to find a perfect cabin to stay in. Writing stories down helps
@@ -19,7 +17,7 @@ export default function UserStories() {
           experience.{' '}
         </p>
         <br />
-        <ol>
+        <ol style={{ fontWeight: '200' }}>
           <li>
             As a user I want to be able to find avalible cabin in the country of
             my choice,

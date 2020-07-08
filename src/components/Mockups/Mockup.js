@@ -12,10 +12,7 @@ export default function Mockup() {
           flexDirection: 'column',
         }}
       >
-        <p
-          className="bounce"
-          style={{ color: '#ED8383', fontSize: '5vw', marginLeft: '10%' }}
-        >
+        <p className="bounce" style={{ color: '#ED8383', marginLeft: '10%' }}>
           mockups
         </p>
         <p className="paragraph-mockup">
@@ -45,7 +42,7 @@ export default function Mockup() {
         <p className="paragraph-mockup">
           {' '}
           This is what rough wireframes turned into. <br /> <br />
-          <span style={{ color: '#828181' }}>
+          <span style={{ color: '#F3A0A0', fontSize: '2.8vw' }}>
             Things are starting to look pretty good!
           </span>
         </p>

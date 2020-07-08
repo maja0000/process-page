@@ -1,7 +1,7 @@
 .App {
   display: flex;
-  flex-direction: row;
-  font-family: Helvetica;
+  /* flex-direction: row; */
+  /* font-family: Helvetica; */
   font-style: normal;
   max-width: 1500px;
   margin: 0 auto;
@@ -32,26 +32,31 @@
   position: sticky;
   top: 0;
 }
+.twitter-logo {
+  background-image: url('./pics/twitter.svg');
+  left: 95%;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
 
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
 .content {
   background-color: #2e2e2e;
   color: #e5e5e5;
-  /* height: 100vh; */
-  /* width: 90%; */
 }
 
 .all-boxes div:nth-child(even) {
-  /* background-color: azure; */
   margin-left: 20%;
 }
 .all-boxes div:nth-child(odd) {
-  /* background-color: yellow; */
   margin-right: 20%;
 }
 
 .content-box {
-  /* background-color: aquamarine; */
-  /* width: 50%; */
   width: 50%;
   display: flex;
   flex-direction: row;
