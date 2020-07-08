@@ -16,11 +16,11 @@ export default function Mockup() {
           mockups
         </p>
         <p className="paragraph-mockup">
-          if I don’t have luxury of working with a designer I have to plan out
-          how user interface will look like. Starting with a rough sketch
-          usually on a piece of paper, first the most important elements on the
+          If I don’t have luxury of working with a designer I have to plan out
+          how user interface will look like. Starting with a rough sketch,
+          usually on a piece of paper. First the most important elements on the
           page - main components like menu, headers, buttons, text blocks etc .
-          It looks something like that :
+          It looks something like that:
         </p>
         <div className="wireframes" data-aos="fade-up-right">
           <div className="wireframe"></div>
@@ -30,10 +30,10 @@ export default function Mockup() {
           {' '}
           Now onto one of my favourite steps! Making things pretty! At this
           point I usually get extra kick of motivation, when UI starts to look
-          as I imagined and idea becomes reality :P For my mockups I use Figma
-          or Illustrator, before staring to code I need to have clear picture of
+          as I imagined and idea becomes reality. For my mockups I use Figma or
+          Illustrator, before staring to code I need to have clear picture of
           what I’m about to build. I try to collect everything what I need.
-          Colour pallets, icons, font styles, pictures etc. I also think about
+          Colour palettes, icons, font styles, pictures etc. I also think about
           movement I wanna add, what animations would make UX more smooth and
           more enjoyable. If I feel extra fancy I'll make my own icons and
           pictures. At the end I'll ask a friend for their first impressions

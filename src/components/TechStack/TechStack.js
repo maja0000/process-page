@@ -32,7 +32,7 @@ export default function TechStack() {
           it’s a small app I pay a lot attention to parent-child-grandchild
           relationships. If it’s bit bigger - I need to decide - is it better to
           use Redux or Context API? Maybe something else? It's important to know
-          it before you start to code.
+          it before I start to code.
           <br /> <br />
           <span style={{ color: '#F3A0A0', fontSize: '2.8vw' }}>
             I've learned this one the hard way (ㆆ^ㆆ)

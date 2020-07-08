@@ -16,8 +16,10 @@ export default function Refacturing() {
           optimalization suggestions.
           <br />
           <br />
-          When it comes to user experience I ask my non-developer friends to
-          have a look and tell me what was good, bad or ugly.
+          I'm happy to hear constructive feedback - that's why I'll ask more
+          experienced developers for review or advice. When it comes to user
+          experience I ask my non-developer friends to have a look and tell me
+          what was good, bad or ugly.
           <br />
           <br />
           <span style={{ color: '#F3A0A0' }}>thats it folks!</span>

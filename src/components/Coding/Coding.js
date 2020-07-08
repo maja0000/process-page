@@ -23,9 +23,13 @@ export default function Coding() {
           Some of the functions deserve a separate file, instead of writing the
           same code over and over again I like to (for example) create a hook
           and re-use them in different parts of my app.
-          <br /> <br /> Biiig fan of the KISS principle - 'keep it simple,
-          stupid' or even better{' '}
-          <span style={{ color: '#F3A0A0' }}>'keep it stupid simple'</span>.
+          <br /> <br /> Biiig fan of the KISS principle - 'keep it stupid
+          simple' or even better{' '}
+          <span style={{ color: '#F3A0A0' }}>
+            'keep it simple<strong>,</strong>
+            stupid'
+          </span>
+          .
         </p>
         <br />
       </div>
