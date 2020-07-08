@@ -31,10 +31,6 @@ export default function Refacturing() {
               height: '20px',
             }}
           ></div>{' '}
-          <span style={{ fontSize: '0.5em', color: '#F3A0A0' }}>
-            {' '}
-            let me know what you think
-          </span>
         </p>
         <br />
       </div>

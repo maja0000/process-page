@@ -12,9 +12,9 @@ export default function Coding() {
           Actually now is the real deal ! My goal is to write clean, readable
           and scalable code. To achieve it, I try to follow couple of rules. I'm
           keeping pieces of logic separated by topic/goal. Most often it’s a
-          function that has one job to do or component that should only have one
-          purpose. Trying to do multiple things at once is a bad idea, causing
-          side effects. <br />
+          function that has one job to do or component with one purpose. Trying
+          to do multiple things at once is a bad idea, might cause side effects.{' '}
+          <br />
           Another one is destructuring - especially when I handle data from API,
           it’s a nice way to decrease complexity and handle only specifics that
           I can assign to a variable and use in my logic.
