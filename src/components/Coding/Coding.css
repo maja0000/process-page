@@ -1,0 +1,16 @@
+.code {
+  background-image: url('../../pics/snippet1.svg');
+  /* background-color: red; */
+  height: 40%;
+  width: 30%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: 20vw;
+  background-position: center;
+  /* margin-top: 40px; */
+  margin-bottom: 5vh;
+  position: absolute;
+  right: 10px;
+  bottom: 90%;
+}

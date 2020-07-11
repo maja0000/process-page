@@ -5,6 +5,8 @@ export default function Coding() {
   return (
     <div>
       <div data-aos="fade-up-right" className="stack">
+        <div data-aos="fade-up-left" className="code"></div>
+
         <p className="bounce" style={{ color: '#ED8383', marginLeft: '10%' }}>
           it's go time
         </p>

@@ -5,7 +5,7 @@ export default function Refacturing() {
   return (
     <div>
       <div data-aos="fade-up-left" className="stack">
-        <div data-aos="fade-up-right" className="stats-pic"></div>
+        {/* <div data-aos="fade-up-right" className="stats-pic"></div> */}
         <p className="bounce" style={{ color: '#ED8383', marginLeft: '10%' }}>
           like this, but nicer
         </p>
