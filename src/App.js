@@ -5,9 +5,9 @@ import AOS from 'aos';
 import UserStories from './components/UserStories/UserStories';
 import Coding from './components/Coding/Coding';
 import Refacturing from './components/Refacturing/Refacturing';
-
 import './App.css';
 AOS.init();
+
 function App() {
   return (
     <div className="App">

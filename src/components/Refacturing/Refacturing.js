@@ -1,10 +1,11 @@
 import React from 'react';
-// import './Refacturing.css';
+import './Refacturing.css';
 import smile from '../../pics/smile1.svg';
 export default function Refacturing() {
   return (
     <div>
       <div data-aos="fade-up-left" className="stack">
+        <div data-aos="fade-up-right" className="stats-pic"></div>
         <p className="bounce" style={{ color: '#ED8383', marginLeft: '10%' }}>
           like this, but nicer
         </p>
