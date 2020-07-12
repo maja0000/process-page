@@ -38,6 +38,7 @@ function App() {
               To make sure that I know exactly what is my applications purpose
               and what features I want users to be able to access. I write down
               short descriptions told from their perspective. <br />
+              <br />
             </p>
           </div>
           <div className="content-box">
