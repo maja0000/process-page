@@ -3,7 +3,7 @@ import './Coding.css';
 
 export default function Coding() {
   return (
-    <div>
+    <div id="code">
       <div data-aos="fade-up-right" className="stack">
         <div data-aos="fade-up-left" className="code"></div>
 

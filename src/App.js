@@ -90,7 +90,8 @@ function App() {
               <span style={{ color: '#ED8383', fontSize: '2em' }}>
                 Code, code, code!{' '}
               </span>{' '}
-              This one is self-explanatory.
+              This one is self-explanatory. <br />
+              <a href="#code">Read more </a>
               <br />
             </p>
           </div>
