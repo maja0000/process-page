@@ -13,8 +13,8 @@ export default function Refacturing() {
           This is the last one. Good time to check my app's performance. I like
           to use Profiler API to check how often my components are rendering and
           which parts of the app are too slow. Another great tool is GTmetrix
-          which provides detailed performance description and even some
-          optimalization suggestions.
+          which provides detailed performance descriptions and even some
+          optimization suggestions.
           <br />
           <br />
           I'm happy to hear constructive feedback - that's why I'll ask more
@@ -23,7 +23,7 @@ export default function Refacturing() {
           what was good, bad or ugly.
           <br />
           <br />
-          <span style={{ color: '#F3A0A0' }}>thats it folks!</span>
+          <span style={{ color: '#F3A0A0' }}>that's it folks!</span>
           <br />
           <br />
           <div

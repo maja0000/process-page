@@ -10,13 +10,13 @@ export default function TechStack() {
           tech stack
         </p>
         <p className="paragraph-stack">
-          Now the real deal ! First, I need to think about technologies I’ll be
-          using. If application requires collecting data from the user or
-          receiving response from database - I’ll use MERN stack. If not, but
-          page is complex enough I’ll just use React. Knowing already what
-          functionality my app is gonna have, it’s time for a quick research
-          about libraries and packages I can re-use. If I'm working on my own
-          I'll only use functional components with hooks.{' '}
+          Now the real deal! First, I need to think about the technologies I’ll
+          be using. If the application requires collecting data from the user or
+          receiving a response from the database - I’ll use the MERN stack. If
+          not, but the page is complex enough I’ll just use React. Knowing
+          already what functionality my app is gonna have, it’s time for quick
+          research about libraries and packages I can re-use. If I'm working on
+          my own I'll only use functional components with hooks.
           <span style={{ color: '#F3A0A0' }}>Keeping it simple!</span>
         </p>
         <br />

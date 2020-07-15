@@ -11,9 +11,9 @@ export default function Coding() {
           it's go time
         </p>
         <p className="paragraph-stack">
-          Actually now is the real deal ! My goal is to write clean, readable
-          and scalable code. To achieve it, I try to follow couple of rules. I'm
-          keeping pieces of logic separated by topic/goal. Most often it’s a
+          Actually now is the real deal! My goal is to write clean, readable,
+          and scalable code. To achieve it, I try to follow a couple of rules.
+          I'm keeping pieces of logic separated by topic/goal. Most often it’s a
           function that has one job to do or component with one purpose. Trying
           to do multiple things at once is a bad idea, might cause side effects.{' '}
           <br />
