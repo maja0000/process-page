@@ -64,8 +64,9 @@ function App() {
               Finally, I have to think about the structure of the application
               and answer the following questions. Is my application connected to
               the database? How will I be storing the data, what state
-              management method is best for this particular app ? What styling
-              method will be the best? What libraries and packages will I need?
+              management method is best for this particular app ? How can I make
+              my app accessible? What styling method will be the best? What
+              libraries and packages will I need?
               <br />
             </p>
           </div>
